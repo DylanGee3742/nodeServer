@@ -1,10 +1,11 @@
 {
   "name": "crash",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node Server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/DylanGee3742/nodeServer/issues"
   },
-  "homepage": "https://github.com/DylanGee3742/nodeServer#readme"
+  "homepage": "https://github.com/DylanGee3742/nodeServer#readme",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
